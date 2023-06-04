@@ -13,7 +13,10 @@ Furthermore, I implemented an experience replay buffer to stabilize the learning
 
 The key hyperparameters used for training were a buffer size of 100,000 experiences, and a mini-batch size of 128. The Q-networks were updated every two steps, and the learning rate for both the actor and critic networks was set to 0.001.
 
-Applying these techniques, the agents were able to solve the environment in just over 4839 episodes, effectively demonstrating the application and utility of MADDPG in training multiple agents to accomplish cooperative tasks in high-dimensional state spaces.
+Applying these techniques, the agents were able to solve the environment in just over 4839 episodes, effectively demonstrating the application and utility of MADDPG in training multiple agents to accomplish cooperative tasks in high-dimensional state spaces.  
 
-Here is the plot:
+Here is video of trained agents playing tennis:  
+![video](https://youtu.be/0xkj29WNVro)
+
+Here is the plot:  
 ![plot](https://github.com/spranav1998/tennis_rl/blob/994c60c6aa4363bdb0b6480f15db9d25286941af/plot/training_metrics.jpg)
