@@ -16,7 +16,7 @@ The key hyperparameters used for training were a buffer size of 100,000 experien
 Applying these techniques, the agents were able to solve the environment in just over 4839 episodes, effectively demonstrating the application and utility of MADDPG in training multiple agents to accomplish cooperative tasks in high-dimensional state spaces.  
 
 Here is video of trained agents playing tennis:  
-![video](https://youtu.be/0xkj29WNVro)
+![video](https://www.youtube.com/watch?v=0xkj29WNVro)
 
 Here is the plot:  
 ![plot](https://github.com/spranav1998/tennis_rl/blob/994c60c6aa4363bdb0b6480f15db9d25286941af/plot/training_metrics.jpg)
